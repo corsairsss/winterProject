@@ -1,0 +1,1028 @@
+@media (min-width: 768px) {
+  .wrap {
+    width: 688px;
+  }
+  .header {
+    background-image: url(../images/background-image__header_768.jpg);
+    min-height: 545px;
+  }
+  .header-row-first {
+    grid-template-columns: 1fr 295px 24px;
+  }
+
+  .header-row-first__link {
+    display: block;
+    font-size: 11px;
+    font-family: "Montserrat_SemiBold", sans-serif;
+    color: #ff6b08;
+    text-transform: uppercase;
+    line-height: 46px;
+    border: 2px solid #ff6b08;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 45px;
+  }
+  .header-row-second {
+    width: 688px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 160px 96px 60px;
+  }
+
+  .header-row-second__picture {
+    grid-column: 2/3;
+    grid-row: 1/4;
+  }
+
+  .header-row-second__title {
+    width: 270px;
+    font-size: 26px;
+    line-height: 1.3;
+    margin: 0;
+    align-self: baseline;
+    padding-top: 13px;
+  }
+
+  .header-row-second-slogan {
+    align-self: baseline;
+    margin: 0;
+  }
+
+  .header-row-second__picture {
+    margin: 0;
+  }
+  .header-row-second__btn {
+    height: 50px;
+    justify-self: left;
+  }
+
+  /* ===SECTION PreferencE====== */
+  .preference {
+    width: 688px;
+    min-height: 60px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px;
+    margin: 0 auto;
+  }
+  /* ==================MAIN PROBLEMS=============== */
+
+  .problems-container {
+    background-image: url(../images/BG-dark.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 333px;
+  }
+
+  .title-wrap__title {
+    width: 450px;
+    font-size: 26px;
+    line-height: 1.2;
+  }
+  .title-wrap {
+    width: 688px;
+  }
+  .br {
+    display: none;
+  }
+
+  .problems-container__list,
+  .item-choice {
+    width: 688px;
+    min-height: 312px;
+    top: 178px;
+  }
+
+  .list {
+    display: grid;
+    grid-template-columns: 210px 240px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 60px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    padding-top: 36px;
+  }
+  .list__item {
+    padding: 0;
+  }
+  /* ===========================TODO==================           */
+  .todo_container {
+    width: 768px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  .todo_container__title {
+    font-size: 26px;
+    line-height: 1.3;
+    margin-top: 218px;
+  }
+  .todo_container__cards {
+    grid-template-columns: 290px 290px;
+    grid-gap: 22px;
+    justify-content: center;
+  }
+  /* ===================OUR PROGRAM====================== */
+  .our_program {
+    min-height: 1343px;
+  }
+  .our_program__container {
+    text-align: left;
+    margin: auto;
+  }
+  .our_program__title {
+    font-size: 26px;
+    padding-bottom: 52px;
+    margin: 0;
+  }
+  .our_program__list {
+    grid-template: min-content / 2px 540px;
+    padding-left: 30px;
+  }
+  .program-item {
+    display: grid;
+    grid-template-columns: 10px 180px 180px 95px;
+  }
+  .program-item__semester {
+    grid-column: 2/5;
+  }
+  /* =================CHOICE+++++++++++++++++++++ */
+  .choice {
+    top: -210px;
+  }
+  .choice__title {
+    margin-top: 13px;
+    font-size: 26px;
+    text-align: center;
+    top: 40px;
+  }
+  .item-choice {
+    top: 59px;
+  }
+  .list2 {
+    grid-template-rows: min-content min-content min-content;
+    padding-top: 22px;
+    grid-row-gap: 20px;
+  }
+  /* ====================TEACHER========================= */
+
+  .teacher {
+    display: grid;
+    grid-template-columns: 36% 64%;
+    grid-column-gap: 45px;
+    margin-top: 178px;
+  }
+  .teacher__title {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-size: 26px;
+    grid-column: 1/3;
+  }
+  .teacher-description {
+    width: 100%;
+  }
+  .teacher-description__about {
+    width: 370px;
+  }
+  .teacher-description__name {
+    font-size: 20px;
+    line-height: 1.45;
+  }
+  /* ===============our GARANTIE================== */
+
+  .warranty__container {
+    min-height: 275px;
+  }
+  .warranty__title {
+    font-size: 26px;
+  }
+  .warranty__list {
+    margin: 0;
+    grid-template-columns: 1px 567px;
+    padding-top: 35px;
+  }
+
+  /* ==================response============ */
+  .response {
+    min-height: 480px;
+    position: relative;
+    margin: 0 auto;
+  }
+  .response__title {
+    margin: 0;
+    font-size: 26px;
+    line-height: 1;
+    width: 100%;
+    padding-top: 65px;
+    padding-bottom: 45px;
+  }
+  .response-container {
+    width: 688px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .item-response {
+    width: 688px;
+    min-height: 200px;
+    display: grid;
+    grid-template-columns: 148px 470px;
+    grid-column-gap: 15px;
+    padding-top: 35px;
+  }
+  .item-response__title {
+    padding-bottom: 13px;
+    text-align: left;
+  }
+  .item-response__subtitle,
+  .item-response-col__first {
+    text-align: left;
+    width: 100%;
+  }
+  .item-response-col {
+    text-align: left;
+
+    width: 100%;
+  }
+  .response__slider {
+    width: 688px;
+    position: static;
+  }
+
+  .response-container__btn_for_slider {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .response__list {
+    margin-top: 24px;
+    margin-bottom: 45px;
+    grid-template-rows: 1fr;
+    grid-auto-flow: column;
+    width: 688px;
+    grid-column-gap: 20px;
+  }
+  .response__item:nth-of-type(odd) {
+    display: block;
+  }
+
+  .btn-slider-left {
+    left: -20px;
+  }
+  .btn-slider-right {
+    right: -20px;
+  }
+  /* =====================FREE LESSON==================== */
+  .form-container {
+    background-image: url(../images/background768.png);
+    min-height: 532px;
+  }
+  .form-inner-container {
+    width: 688px;
+  }
+  .form-inner-container__title {
+    width: 560px;
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 1.72;
+    padding: 52px 0 25px 0;
+    letter-spacing: 1px;
+  }
+  .form-inner-container__subtitle {
+    font-size: 15px;
+    line-height: 1.33;
+    letter-spacing: 1px;
+    padding: 0 116px 45px 116px;
+  }
+  .form {
+    width: 400px;
+    margin: 0 auto;
+  }
+  .form__input {
+    width: 400px;
+  }
+  .form__btn {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  /* ====================FOOTER========= */
+  .row-first-item-footer {
+    width: 688px;
+    margin-top: 36px;
+    margin-top: 39px;
+    margin-bottom: 39px;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+  }
+  .row-first-item-footer__phone {
+    order: 1;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 38px 1fr 1fr;
+    grid-template-rows: 37px;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .row-first-item-footer__phone::after {
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid #e0e0e0;
+    padding-left: 30px;
+    grid-column: unset;
+    align-self: stretch;
+  }
+
+  .logo__slogan {
+    font-size: 8.5px;
+  }
+  .row-first-item-footer__logo {
+    justify-self: left;
+  }
+  .hellenFooter__smallFooter__text {
+    width: 688px;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1280px) {
+  .wrap {
+    width: 1210px;
+  }
+  .header {
+    background-image: url(../images/background-image__header_1280.jpg);
+    min-height: 785px;
+    margin-bottom: 50px;
+  }
+  .burger-menu {
+    display: none;
+  }
+  .header-row-first {
+    grid-template-columns: max-content auto max-content;
+    align-items: center;
+    grid-column-gap: 44px;
+    margin-bottom: 45px;
+  }
+  .header-row-first__navigation {
+    display: block;
+    justify-self: end;
+  }
+  .navigation__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    grid-column-gap: 44px;
+  }
+  .navigation__item {
+    font-size: 12px;
+    font-family: "Montserrat_SemiBold";
+    color: #b9b9b9;
+    text-transform: uppercase;
+  }
+  .navigation__item--orange:hover {
+    color: #ff6b08;
+    cursor: pointer;
+  }
+
+  .header-row-first__link {
+    margin: 0;
+    line-height: 64px;
+    width: 300px;
+    font-size: 12px;
+  }
+  .header-row-second__title {
+    width: 100%;
+    font-size: 48px;
+    padding: 0;
+    align-self: end;
+  }
+  .header-row-second {
+    grid-template-rows: 54% 24% 26%;
+  }
+  .header-row-second-slogan {
+    grid-template-columns: max-content;
+    margin-top: 33px;
+    grid-column-gap: 10px;
+  }
+  .header-row-second-slogan__second {
+    grid-column: 1/2;
+  }
+  .header-row-second-slogan__third {
+    grid-column: 2/3;
+  }
+  .header-row-second-slogan__first,
+  .header-row-second-slogan__second,
+  .header-row-second-slogan__third {
+    font-size: 18px;
+  }
+  .header-row-second__btn {
+    min-width: 300px;
+    height: 68px;
+    font-size: 14px;
+  }
+  /*------------------ preference -------*/
+
+  .preference {
+    grid-template-rows: 104px;
+    grid-template-columns: 1fr 1fr 322px;
+
+    width: 1210px;
+  }
+  .item-preference {
+    grid-template-columns: 104px 1fr;
+    grid-template-rows: 104px;
+    position: relative;
+  }
+
+  .square {
+    width: 100px;
+    height: 100px;
+  }
+  .line {
+    height: 70px;
+    top: 16px;
+  }
+  .item-preference__txt {
+    position: absolute;
+    align-self: center;
+    font-size: 18px;
+    top: 25px;
+    left: 86px;
+    z-index: 25;
+  }
+  .item-preference__icon-first {
+    background-image: url(../images/icon/icon_Female_Student_1280.png);
+  }
+  .item-preference__icon-second {
+    background-image: url(../images/icon/icon_Mobile_Learning_1280.png);
+  }
+  .item-preference__icon-third {
+    background-image: url(../images/icon/icon_umbrella_1280.png);
+  }
+
+  /* ==================MAIN PROBLEMS=============== */
+
+  .problems-container {
+    background-image: url(../images/BG-dark_1280.png);
+    min-height: 525px;
+    margin-top: 86px;
+  }
+
+  .title-wrap__title {
+    font-size: 42px;
+    line-height: 1.33;
+    width: 736px;
+    padding-top: 70px;
+  }
+
+  .problems-container__list,
+  .item-choice {
+    min-height: 320px;
+    top: 280px;
+  }
+
+  .list {
+    width: 1008px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    grid-column-gap: 100px;
+    grid-row-gap: 35px;
+    padding-top: 42px;
+  }
+
+  .list__item::before {
+    font-size: 20px;
+    font-family: "Montserrat_Medium";
+    margin-bottom: 7px;
+  }
+  .list__item {
+    font-size: 18px;
+  }
+  .list__br {
+    display: none;
+  }
+  /* ===========================TODO==================*/
+  .todo_container {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+
+  .todo_container__title {
+    margin: 150px auto 0 auto;
+    font-size: 42px;
+    line-height: 1.42;
+    width: 1210px;
+    text-align: left;
+    margin-top: 150px;
+    padding-bottom: 46px;
+  }
+
+  .todo_container__cards {
+    grid-template-columns: 390px 390px 390px;
+    grid-gap: 20px;
+    justify-content: center;
+  }
+  .card__svg-icon {
+    margin: 43px auto 22px auto;
+  }
+
+  .card {
+    width: 390px;
+    height: 340px;
+  }
+  .card__title {
+    font-size: 18px;
+    width: 80%;
+  }
+  .card__description {
+    font-size: 15px;
+    width: 80%;
+  }
+
+  /* ===================OUR PROGRAM====================== */
+  .our_program {
+    text-align: left;
+    min-height: 1220px;
+  }
+  .our_program__title {
+    font-size: 42px;
+    padding: 57px 0 0 0;
+  }
+
+  .our_program__hor-line {
+    position: absolute;
+    background-color: #546264;
+    width: 100vw;
+    height: 2px;
+    top: 157px;
+    left: 0;
+  }
+  .our_program__line {
+    display: none;
+  }
+  .our_program__list {
+    width: 1210px;
+    padding: 80px 0 0 0;
+    grid-template-columns: repeat(5, max-content);
+    grid-column-gap: 80px;
+  }
+
+  .our_program__item {
+    justify-self: left;
+    overflow-wrap: break-word;
+    display: grid;
+    grid-template-columns: 10px 1fr;
+    grid-template-rows: repeat(5, min-content);
+    grid-row-gap: 15px;
+  }
+
+  .our_program__item::before {
+    width: 17px;
+    height: 17px;
+    left: 10px;
+    top: -56px;
+  }
+  .program-item__semester {
+    grid-column: 2/3;
+    padding-bottom: 0;
+    font-size: 19px;
+  }
+  .our_program__item:nth-last-of-type(1) {
+    grid-column: 5/6;
+  }
+  .program-item__title {
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+  .program-item__task {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .our_program__image {
+    bottom: 250px;
+    left: -15px;
+  }
+  /* =================CHOICE+++++++++++++++++++++ */
+
+  .choice {
+    top: -440px;
+  }
+  .choice__title {
+    margin: 0 auto;
+    font-size: 42px;
+    line-height: 52px;
+  }
+  .item-choice {
+    top: 90px;
+    min-height: 350px;
+  }
+
+  .list2 {
+    justify-content: space-between;
+    grid-template-rows: max-content;
+    grid-template-columns: 31% 31% 31%;
+    grid-column-gap: 0px;
+    grid-row-gap: 40px;
+  }
+  /* -- =======================TEACHER========================== - */
+
+  .teacher {
+    grid-template-columns: 41% 50%;
+    grid-column-gap: 75px;
+    margin-top: 0;
+  }
+  .teacher__title {
+    font-size: 42px;
+    margin-top: 25px;
+    margin-bottom: 55px;
+  }
+  .teacher__image {
+    margin: 0;
+  }
+  .teacher-description__name {
+    font-size: 29px;
+    line-height: 1.5;
+  }
+  .teacher-description__item,
+  .teacher-description__about,
+  .teacher-description__certificate {
+    font-size: 17px;
+    line-height: 1.7;
+    width: 100%;
+  }
+  .teacher-description__about,
+  .teacher-description__certificate {
+    padding: 0 0 20px 0;
+  }
+  /* ===============our GARANTIE================== */
+  .warranty__container {
+    min-height: 393px;
+  }
+  .warranty__title {
+    font-size: 42px;
+    padding-top: 100px;
+    padding-bottom: 35px;
+  }
+  .warranty__list {
+    margin: auto;
+    width: 970px;
+    grid-template-columns: 1px 1fr;
+    padding-top: 45px;
+    grid-row-gap: 4px;
+  }
+  .warranty__list-item {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .warranty__list-item:nth-child(odd)::before {
+    content: url(../images/icon/fire_1280.png);
+    left: -10px;
+  }
+  /* ==================response============ */
+
+  .response__title {
+    font-size: 42px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+  }
+  .response-container {
+    width: 88%;
+    position: relative;
+  }
+
+  .item-response {
+    width: 100%;
+    grid-template-columns: 242px 70%;
+    justify-content: center;
+    grid-gap: 0;
+  }
+  .item-response__photo {
+    justify-self: center;
+  }
+  .item-response__title {
+    font-size: 25px;
+    line-height: 29px;
+  }
+  .item-response__subtitle,
+  .item-response-col__first {
+    font-size: 13px;
+    line-height: 17px;
+  }
+  .text2,
+  .item-response-col__btn {
+    font-size: 17px;
+    line-height: 29px;
+  }
+
+  .btn-slider-left {
+    left: -32px;
+  }
+  .btn-slider-right {
+    right: -32px;
+  }
+  .response__list {
+    margin-top: 35px;
+    margin-bottom: 100px;
+    grid-column-gap: 35px;
+  }
+  /* =====================FREE LESSON==================== */
+
+  .form-container {
+    background-image: url(../images/background1280.png);
+    min-height: 750px;
+  }
+  .form-inner-container {
+    width: 1210px;
+  }
+  .form-inner-container__title {
+    width: 80%;
+    font-size: 36px;
+    line-height: 1.33;
+    padding: 80px 0 48px;
+  }
+  .form-inner-container__subtitle {
+    margin: 0 auto;
+    width: 45%;
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 44px;
+  }
+  .form {
+    width: 51%;
+  }
+  .form__input {
+    width: 100%;
+    min-height: 72px;
+    margin-bottom: 28px;
+    font-size: 21px;
+    line-height: 38px;
+  }
+  .form__btn {
+    padding: 0 50px 0 50px;
+    line-height: 68px;
+    margin-top: 20px;
+  }
+  .form__input::placeholder {
+    font-size: 21px;
+    line-height: 38px;
+  }
+  /* ====================FOOTER========= */
+  .row-first-item-footer {
+    grid-template-columns: 32% 38%;
+    justify-content: start;
+    margin-top: 53px;
+    margin-bottom: 53px;
+  }
+
+  .row-first-item-footer__phone {
+    font-size: 27px;
+    grid-template-columns: 10% 68% 15%;
+  }
+
+  .row-first-item-footer__phone::before {
+    content: url(../images/icon/icon_tel_1280.png);
+    padding-right: 16px;
+  }
+  .hellenFooter__smallFooter__text {
+    width: 1210px;
+  }
+}
+
+@media (min-width: 1680px) {
+  .wrap {
+    width: 1340px;
+  }
+  .header {
+    min-height: 940px;
+    margin-bottom: 0;
+  }
+
+  .header-row-first__link {
+    margin: 0;
+    line-height: 64px;
+    width: 350px;
+    font-size: 14px;
+  }
+  .navigation__item {
+    font-size: 14px;
+  }
+
+  .header-row-second {
+    grid-template-columns: 580px 1fr;
+    grid-column-gap: 25px;
+    grid-template-rows: 54% 17% 26%;
+  }
+  .header-row-second__title {
+    width: 100%;
+    font-size: 58px;
+    padding: 0;
+    align-self: end;
+  }
+  .header-row-second-slogan__first,
+  .header-row-second-slogan__second,
+  .header-row-second-slogan__third {
+    font-size: 21px;
+  }
+  .header-row-second__btn {
+    min-width: 350px;
+  }
+  /* ===SECTION PreferencE====== */
+  .item-preference__txt {
+    font-size: 21px;
+    line-height: 33px;
+    top: 18px;
+  }
+
+  .preference {
+    grid-template-columns: 1fr 1fr 370px;
+  }
+  /* ==================MAIN PROBLEMS=============== */
+
+  .problems-container {
+    margin-top: 128px;
+    background-image: url(../images/BG-dark_1680.png);
+    min-height: 560px;
+  }
+
+  .title-wrap__title {
+    font-size: 46px;
+    width: 750px;
+    padding-top: 105px;
+  }
+  .problems-container__list,
+  .item-choice {
+    min-height: 370px;
+    top: 352px;
+  }
+
+  .list__item {
+    font-size: 21px;
+    line-height: 1.42;
+  }
+
+  .list {
+    width: 1150px;
+    grid-template-columns: 300px 1fr 1fr;
+    grid-template-rows: min-content;
+    padding-top: 70px;
+  }
+  /* ===========================TODO==================*/
+
+  .todo_container__title {
+    font-size: 46px;
+    margin: 282px auto 0 auto;
+    width: 1340px;
+  }
+  .todo_container__cards {
+    grid-template-columns: 430px 430px 430px;
+    grid-gap: 25px;
+    justify-content: center;
+  }
+  .card {
+    width: 430px;
+    height: 396px;
+  }
+  .card__title {
+    font-size: 21px;
+  }
+  .card__description {
+    font-size: 19px;
+  }
+  /* ===================OUR PROGRAM====================== */
+  .our_program {
+    min-height: 1220px;
+  }
+  .our_program__title {
+    font-size: 46px;
+    padding: 111px 0 0 0;
+  }
+  .our_program__list {
+    padding: 120px 0 0 0;
+    width: 1340px;
+    grid-column-gap: 100px;
+  }
+  .our_program__hor-line {
+    top: 259px;
+  }
+  .our_program__item::before {
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: -56px;
+  }
+  .program-item__title {
+    font-size: 19px;
+    line-height: 29px;
+  }
+
+  .program-item__semester {
+    font-size: 21px;
+  }
+  .program-item__title {
+    font-size: 21px;
+  }
+
+  .program-item__task {
+    font-size: 19px;
+    line-height: 29px;
+  }
+
+  .our_program__image {
+    bottom: 0;
+    left: 0;
+  }
+  /* =================CHOICE+++++++++++++++++++++ */
+
+  .choice {
+    top: -380px;
+  }
+  .choice__title {
+    position: absolute;
+    top: 95px;
+    font-size: 46px;
+    line-height: 63px;
+  }
+  .item-choice {
+    top: 180px;
+    min-height: 400px;
+  }
+  /* -- =======================TEACHER========================== - */
+  .teacher__title {
+    font-size: 46px;
+    margin-top: 310px;
+  }
+  /* ===============our GARANTIE================== */
+
+  .warranty__container {
+    min-height: 415px;
+  }
+  .warranty__title {
+    font-size: 46px;
+    padding-top: 100px;
+    padding-bottom: 35px;
+  }
+  .warranty__list {
+    padding-top: 69px;
+  }
+  .warranty__list-item {
+    font-size: 21px;
+    line-height: 1.38;
+  }
+
+  /* ==================response============ */
+  .response__title {
+    font-size: 46px;
+    padding-top: 130px;
+  }
+
+  .response-container {
+    width: 80%;
+  }
+
+  .item-response {
+    width: 100%;
+    grid-template-columns: 242px 70%;
+    justify-content: center;
+    grid-gap: 0;
+  }
+
+  .btn-slider-left {
+    left: -59px;
+  }
+  .btn-slider-right {
+    right: -59px;
+  }
+  /* =====================FREE LESSON==================== */
+
+  .form-container {
+    background-image: url(../images/background1680.png);
+    min-height: 840px;
+  }
+
+  .form-inner-container__title {
+    width: 80%;
+    font-size: 38px;
+    padding: 120px 0 48px;
+  }
+  .form-inner-container__subtitle {
+    margin: 0 auto;
+    width: 60%;
+    font-size: 25px;
+    line-height: 1.48;
+    padding-bottom: 54px;
+  }
+  .form {
+    width: 46%;
+  }
+
+  .form__input {
+    width: 100%;
+  }
+}

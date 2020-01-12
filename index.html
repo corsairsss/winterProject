@@ -12,17 +12,18 @@
   <body>
     <header class="header">
       <div class="header-row-first wrap">
-        <picture class="logo">
-          <source media="(max-width: 767px)" srcset="images/logo.png" />
-          <source media="(max-width: 1279px)" srcset="images/logo768.png" />
-          <source media="(min-width: 1280px)" srcset="images/logo768.png" />
+        <div>
+          <picture class="logo">
+            <source media="(max-width: 767px)" srcset="images/logo.png" />
+            <source media="(max-width: 1279px)" srcset="images/logo768.png" />
+            <source media="(min-width: 1280px)" srcset="images/logo768.png" />
 
-          <img src="images/teacher.png" alt="logo" />
-          <p class="logo__slogan">
+            <img src="images/teacher.png" alt="logo" />
+          </picture>
+          <div class="logo__slogan">
             <span class="orange"> адский</span> английский
-          </p>
-        </picture>
-
+          </div>
+        </div>
         <nav class="header-row-first__navigation navigation">
           <ul class="navigation__list">
             <li class="navigation__item navigation__item--orange">
@@ -43,7 +44,7 @@
         <div class="burger-menu a">
           <img src="images/burger.png" alt="line" />
           <img src="images/burger.png" alt="line" />
-          <img src="images/burger.png" alt=line"" />
+          <img src="images/burger.png" alt="line" />
         </div>
       </div>
 
@@ -573,7 +574,7 @@
               required
             />
             <input
-              type="telephon"
+              type="tel"
               class="form__input"
               name="insert-phone"
               placeholder="Телефон*"
@@ -592,16 +593,18 @@
         <a href="tel:+38(067)4310806" class="row-first-item-footer__phone"
           >+38 (000) 000 00 00</a
         >
+        <div>
+          <picture class="row-first-item-footer__logo logo">
+            <source media="(max-width: 767px)" srcset="images/logo.png" />
+            <source media="(max-width: 1279px)" srcset="images/logo768.png" />
+            <source media="(max-width: 1679px)" srcset="images/logo768.png" />
+            <img src="images/logo768.png" alt="logo" />
+          </picture>
 
-        <picture class="row-first-item-footer__logo logo">
-          <source media="(max-width: 767px)" srcset="images/logo.png" />
-          <source media="(max-width: 1279px)" srcset="images/logo768.png" />
-          <source media="(max-width: 1679px)" srcset="images/logo768.png" />
-          <img src="images/logo768.png" alt="logo" />
           <p class="logo__slogan">
             <span class="orange"> адский</span> английский
           </p>
-        </picture>
+        </div>
       </div>
       <div class="row-second-item-footer">
         <p class="row-second-item-footer__text">@ Все права защищены, 2019</p>

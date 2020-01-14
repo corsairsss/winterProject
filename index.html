@@ -24,28 +24,37 @@
             <span class="orange"> адский</span> английский
           </div>
         </div>
-        <nav class="header-row-first__navigation navigation">
-          <ul class="navigation__list">
-            <li class="navigation__item navigation__item--orange">
-              Программа обучения
+
+
+
+        <nav class="header-row-first__navigation navigation" id="list">
+          <ul  class="navigation__list">
+            <li class="navigation__item" >
+              <a href="#" class="navigation__link">Программа обучения</a> 
             </li>
-            <li class="navigation__item navigation__item--orange">о нас</li>
-            <li class="navigation__item navigation__item--orange">
-              варианты обучения
+            <li class="navigation__item" >
+             <a href="#" class="navigation__link">варианты обучения</a> 
             </li>
-            <li class="navigation__item navigation__item--orange">контакты</li>
+            <li class="navigation__item" ><a href="#" class="navigation__link">о нас</a></li>
+            <li class="navigation__item" ><a href="#" class="navigation__link">контакти</a></li>
           </ul>
         </nav>
 
-        <a href="tel:" class="header-row-first__link"
-          >консультация по телефону</a
-        >
+        <a href="tel:+380674310806" class="header-row-first__link">консультация по телефону</a>
 
-        <div class="burger-menu a">
-          <img src="images/burger.png" alt="line" />
-          <img src="images/burger.png" alt="line" />
-          <img src="images/burger.png" alt="line" />
-        </div>
+        <button class="button-show-menu button" id="btn-show" onclick="btn()">
+          <span class="button__line"></span>
+          <span class="button__line"></span>
+          <span class="button__line"></span>
+          </button>
+
+
+        <button class="button-hide-menu button" id="btn-hide" onclick="btn()">
+          <span class="button__line button__line--rotate"></span>
+          <span class="button__line button__line--rotate"></span>
+        </button>
+
+
       </div>
 
       <section class="header-row-second  wrap">
@@ -527,25 +536,25 @@
         <div class="response__slider wrap">
           <ul class="response__list wrap">
             <li class="response__item">
-              <img src="images/icon_response/photo2.png" alt="response_photo" />
+             <button class="slider-button"><img src="images/icon_response/photo2.png" alt="response_photo" /></button>
             </li>
             <li class="response__item">
-              <img src="images/icon_response/photo3.png" alt="response_photo" />
+              <button class="slider-button"><img src="images/icon_response/photo3.png" alt="response_photo" /></button>
             </li>
             <li class="response__item">
-              <img src="images/icon_response/photo4.png" alt="response_photo" />
+              <button class="slider-button"><img src="images/icon_response/photo4.png" alt="response_photo" /></button>
             </li>
             <li class="response__item">
-              <img src="images/icon_response/photo5.png" alt="response_photo" />
+              <button class="slider-button"><img src="images/icon_response/photo5.png" alt="response_photo" /></button>
             </li>
             <li class="response__item">
-              <img src="images/icon_response/photo6.png" alt="response_photo" />
+              <button class="slider-button"><img src="images/icon_response/photo6.png" alt="response_photo" /></button>
             </li>
             <li class="response__item">
-              <img src="images/icon_response/photo7.png" alt="response_photo" />
+              <button class="slider-button"><img src="images/icon_response/photo7.png" alt="response_photo" /></button>
             </li>
             <li class="response__item">
-              <img src="images/icon_response/photo8.png" alt="response_photo" />
+              <button class="slider-button"><img src="images/icon_response/photo8.png" alt="response_photo" /></button>
             </li>
           </ul>
         </div>
@@ -610,5 +619,19 @@
         <p class="row-second-item-footer__text">@ Все права защищены, 2019</p>
       </div>
     </footer>
+
+    <script>
+
+      const btn = function () {
+          
+            document.getElementById("list").classList.toggle("show");
+            document.getElementById("btn-show").classList.toggle("hide");
+            document.getElementById("btn-hide").classList.toggle("show");
+      
+      }
+                          
+      
+      </script>
+
   </body>
 </html>

@@ -22,6 +22,11 @@
     text-decoration: none;
     margin-right: 45px;
   }
+  .navigation__item {
+    width: 65%;
+    margin: 0 auto 9px auto;
+  }
+
   .header-row-second {
     width: 688px;
     grid-template-columns: 1fr 1fr;
@@ -355,7 +360,7 @@
     min-height: 785px;
     margin-bottom: 50px;
   }
-  .burger-menu {
+  .button {
     display: none;
   }
   .header-row-first {
@@ -366,7 +371,9 @@
   }
   .header-row-first__navigation {
     display: block;
+    order: 0;
     justify-self: end;
+    grid-column: auto;
   }
   .navigation__list {
     padding: 0;
@@ -377,14 +384,12 @@
     grid-column-gap: 44px;
   }
   .navigation__item {
-    font-size: 12px;
-    font-family: "Montserrat_SemiBold";
-    color: #b9b9b9;
-    text-transform: uppercase;
+    border: none;
+    width: 100%;
   }
-  .navigation__item--orange:hover {
-    color: #ff6b08;
-    cursor: pointer;
+  .navigation__link {
+    font-size: 12px;
+    line-height: 1.2;
   }
 
   .header-row-first__link {

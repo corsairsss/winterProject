@@ -10,6 +10,40 @@
     <link rel="stylesheet" href="css/media.css" />
   </head>
   <body>
+
+    <section class="modal" id="modal-window"> 
+      <div class="item-modal wrap">
+          <div class="modal__row wrap">
+
+            <div>
+              <picture class="logo">
+                <source media="(max-width: 767px)" srcset="images/logo.png" />
+                <source media="(max-width: 1279px)" srcset="images/logo768.png" />
+                <img src="images/logo.png" alt="logo" />
+              </picture>
+
+              <div class="logo__slogan" id="logo__slogan-modal">
+                <span class="orange"> адский</span> английский
+              </div>
+            </div>
+            <button class="modal__btn button" onclick="myfunc()">
+              <span class="modal__button-line button__line--rotate"></span>
+              <span class="modal__button-line button__line--rotate"></span>
+            </button>
+
+          </div>
+
+          <ul class="modal__list">
+            <li><a href="#"  class="modal__item"> Программа обучения</a></li>
+            <li><a href="#" class="modal__item">Варианты обучения </a></li>
+            <li><a href="#" class="modal__item orange">О нас </a></li>
+            <li><a href="#" class="modal__item">Контакти</a></li>
+          </ul>
+  
+           <a href="tel:+380674310806" class="modal__link">консультация по телефону</a>
+       </div>
+   </section> 
+    
     <header class="header">
       <div class="header-row-first wrap">
         <div>
@@ -602,7 +636,7 @@
         <a href="tel:+38(067)4310806" class="row-first-item-footer__phone"
           >+38 (000) 000 00 00</a
         >
-        <div>
+        <div class="footer__logo">
           <picture class="row-first-item-footer__logo logo">
             <source media="(max-width: 767px)" srcset="images/logo.png" />
             <source media="(max-width: 1279px)" srcset="images/logo768.png" />
@@ -629,7 +663,10 @@
             document.getElementById("btn-hide").classList.toggle("show");
       
       }
-                          
+      const myfunc = function(){
+    document.getElementById("modal-window").classList.toggle("modal_hide");
+
+}                             
       
       </script>
 

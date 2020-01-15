@@ -2,6 +2,9 @@
   .wrap {
     width: 688px;
   }
+  .modal__link{
+    display: none;
+  }
   .header {
     background-image: url(../images/background-image__header_768.jpg);
     min-height: 545px;
@@ -13,7 +16,8 @@
   .header-row-first__link {
     display: block;
     font-size: 11px;
-    font-family: "Montserrat_SemiBold", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
     color: #ff6b08;
     text-transform: uppercase;
     line-height: 46px;
@@ -352,6 +356,9 @@
 }
 
 @media (min-width: 1280px) {
+  .modal{
+    display: none;
+  }
   .wrap {
     width: 1210px;
   }
@@ -501,7 +508,9 @@
 
   .list__item::before {
     font-size: 20px;
-    font-family: "Montserrat_Medium";
+    font-family: "Montserrat";
+    font-weight: 500;
+
     margin-bottom: 7px;
   }
   .list__item {
